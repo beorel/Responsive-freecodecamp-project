@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/db3633b76d.js" crossorigin="anonymous"></script>
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">*/-->
+    <style>
+        /*@media only screen and (max-width: 768px) {
+
+           /* For mobile phones: 
+            body {
+                width: 100%;
+            }
+        }*/
+
+        @media screen and (max-width: 500px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        .header {
+            display: flex;
+            justify-content: right;
+            background-color: #9933cc;
+            flex-direction: row;
+            /*padding: 15px;
+            text-align: right;*/
+        }
+
+        /*@media screen and (max-width: 500px) {
+            .header{
+                flex-direction: column;
+            }
+        }*/
+
+        nav div a {
+            text-decoration: none;
+            color: inherit;
+            padding: 58px;
+            margin-bottom: 7px;
+            font-size: 40px;
+        }
+
+        #about {
+            text-align: center;
+            padding: 100px;
+            background-color: #397af1;
+            font-size: 30px;
+        }
+
+        #work {
+            background-color: #2196F3;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        img {
+            width: 300px;
+            padding: 5px;
+            height: 300px;
+            background-size: cover;
+
+        }
+
+        .row {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 10px;
+            grid-gap: 50px 100px;
+        }
+
+        .column {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            font-size: 20px;
+            text-align: center;
+            margin: 20px;
+
+        }
+
+        section div div a {
+            text-decoration: none;
+            color: inherit;
+
+        }
+
+        span {
+            background-color: black;
+            color: white;
+            padding: 0;
+            margin: 0;
+        }
+
+        #contact {
+            text-align: center;
+            padding: 100px;
+            background-color: #17d0d6;
+            font-size: 30px;
+        }
+
+        #footer {
+            text-align: center;
+            padding: 50px;
+            background-color: #e6f147;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="header">
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <section class="welcome-section" id="about">
+        <h1>Hey I am Beauty Akinsete</h1>
+        <i>A web Developer</i>
+    </section>
+    <section class="projects" id="work">
+        <h3><u>These are some of my projects</u></h3>
+        <div>
+            <div class="row">
+                <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" class="column">
+                    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"><br><br><br>
+                    <p class="project_title">
+                        <span>"Tribute Page"</span>
+                    </p>
+                </a>
+                <a class="column" href="https://codepen.io/freeCodeCamp/full/qRZeGZ">
+                    <img
+                        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"><br><br><br>
+                    <p><span>"Random Quote Machine"</span></p>
+                </a>
+                <a class="column" href="https://codepen.io/freeCodeCamp/full/wgGVVX">
+                    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"><br><br><br>
+                    <p><span>"Javascript Calculator"</span></p>
+                </a>
+                <a class="column" href="https://codepen.io/freeCodeCamp/full/mVEJag">
+                    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"><br><br><br>
+                    <p><span>"Map Data Across the Globe"</span></p>
+                </a>
+                <a class="column" href="https://codepen.io/freeCodeCamp/full/wGqEga">
+                    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"><br><br><br>
+                    <p><span>"Wikipedia Viewer"</span></p>
+                </a>
+                <a class="column" href="https://codepen.io/freeCodeCamp/full/KzXQgy">
+                    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"><br><br><br>
+                    <p><span>"Tic Tac Toe Game"</span></p>
+                </a>
+            </div>
+        </div>
+        <a href="https://codepen.io/FreeCodeCamp/">
+            Show all
+        </a>
+    </section>
+    <div id="contact">
+        <h1>lets work together...</h1>
+        <i>How do you take your Tea?</i><br><br>
+        <nav>
+            <div>
+                <a><i class="fab fa-facebook">Facebook</i></a> 
+                <a><i class="fab fa-github">Github</i></a> 
+                <a><i class="far fa-envelope">Send a mail</i></a>
+                <a><i class="fas fa-phone-alt">Call me</i></a>
+            </div>
+        </nav>
+    </div>
+    <div id="footer">
+
+        <p>© Created for freeCodeCamp </p>
+    </div>
+</body>
+
+</html>
